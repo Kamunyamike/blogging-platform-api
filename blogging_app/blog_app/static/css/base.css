@@ -1,0 +1,40 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+header {
+    padding: 16px;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 16px;
+    display: flex;
+}
+header h1 a {
+    color: red;
+text-decoration: none;
+}
+ 
+.nav-left {
+    margin-right: auto;
+}
+.nav-right {
+    display: flex;
+    padding-top: 16px;
+}
+.post-entry {
+    margin-bottom: 16px;
+}
+.post-entry h2 {
+    margin: 0 0 8px;
+}
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: blue;
+    text-decoration: none;
+}
+.post-entry p {
+    margin: 0;
+    font-weight: normal;
+}
+.post-entry h2 a:hover {
+    color: red;
+}

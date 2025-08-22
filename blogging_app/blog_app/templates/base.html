@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Discovery</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:" rel="stylesheet">
+        {% load static %}
+        <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1><a href="{% url 'home' %}">Your Amazing Discovery and Learning Blog</a></h1>
+        </header>
+        <div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </body>
+</html>
